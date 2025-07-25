@@ -26,4 +26,4 @@ issues: https://github.com/esp-idf-lib/tca9548/issues
 discussion: https://github.com/esp-idf-lib/core/discussions
 files:
   exclude:
-    - docs
+    - docs/**/*
