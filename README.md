@@ -11,7 +11,7 @@ Driver for TCA9548A/PCA9548A low-voltage 8-channel I2C switch.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/tca9548^1.0.0
+idf.py add-dependency esp-idf-lib/tca9548^1.0.0
 ```
 
 ## Support
