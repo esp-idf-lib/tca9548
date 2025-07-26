@@ -1,5 +1,5 @@
 ---
-version: 1.0.2
+version: 1.0.3
 description: Driver for TCA9548A/PCA9548A low-voltage 8-channel I2C switch
 license: BSD-3
 targets:
