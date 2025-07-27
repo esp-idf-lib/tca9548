@@ -1,11 +1,12 @@
----
 version: 1.0.0
 description: default
 dependencies:
   esp-idf-lib/tca9548:
-    version: "*"
-    override_path: "../../../"
+    version: '*'
+    override_path: ../../../
   esp-idf-lib/i2cdev:
-    version: "*"
+    version: '*'
   esp-idf-lib/esp_idf_lib_helpers:
-    version: "*"
+    version: '*'
+  esp-idf-lib/bmp180:
+    version: '*'
