@@ -85,7 +85,7 @@ esp_err_t tca9548_set_channels(i2c_dev_t *dev, uint8_t channels)
     I2C_DEV_CHECK(dev, i2c_dev_write(dev, NULL, 0, &channels, 1));
     I2C_DEV_GIVE_MUTEX(dev);
     ESP_LOGD(TAG, "[0x%02x at %d] Channels set to 0x%02x (0b" BYTE_TO_BINARY_PATTERN ")",
-            dev->addr, dev->port, channels, BYTE_TO_BINARY(channels));
+             dev->addr, dev->port, channels, BYTE_TO_BINARY(channels));
 
     return ESP_OK;
 }
