@@ -20,4 +20,3 @@ resistors.
 ## Notes
 
 - Choose correct I2C address of TCA9548 in `menuconfig`. It's 0x70 by default.
-- `CONFIG_NEWLIB_LIBRARY_LEVEL_NORMAL` must be `y` on `esp8266`.
