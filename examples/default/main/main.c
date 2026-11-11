@@ -45,10 +45,6 @@ void i2c_switch_test(void *pvParameters)
             if (res != ESP_OK)
                 printf("Could not measure on sensor %d: %d\n", i, res);
             else
-                /* float is used in printf(). you need non-default configuration in
-                 * sdkconfig for ESP8266, which is enabled by default for this
-                 * example. see sdkconfig.defaults.esp8266
-                 */
                 printf("[Sensor %d] Temperature: %.2f degrees Celsius; Pressure: %" PRIu32 " Pa\n", i, temp, pressure);
         }
 
